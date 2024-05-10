@@ -1,0 +1,83 @@
+body {    
+    background-color: #132F4D ;   
+    font-family: 'Courier New', Courier, monospace;
+    color: #7CADE3;
+}
+.nav_bar {
+    font-size: 22px;
+    font-weight: bold;
+}
+.container {
+    margin-top: 40px;
+}
+.nav_text {
+    display:flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.title_photo {
+    text-align: center;
+    font-size: 20px;
+}
+.my_photo{
+    background: url(Images/Photo.jpg) no-repeat center center;
+    background-size: cover;
+    width:85%;
+    height:490px;
+    border-radius: 15px;
+}
+.nav_logo{
+    background: url(Images/Logo.png) no-repeat center center;
+    background-size: 100%;
+    width:240px;
+    height: 100%;
+}
+.btn_blue{
+    text-align: center;
+    margin-top: 20px;
+}
+#myButton{
+    background-color: blue;
+    border:none;
+    border-radius: 15px;
+    width: 150px;
+    height:50px;
+    font-weight: bold;
+}
+.btn_blue1{
+    background-color: blue;
+    border:none;
+    border-radius: 15px;
+    width: 150px;
+    height:50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn_blue1:hover {
+    background-color: #0056b3;
+}
+.buttons_posts{
+    display: flex;
+    justify-content: space-between;
+}
+#demo img{
+    margin-top: 20px;
+    width:30%;
+    border-radius: 15px;
+}
+
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
